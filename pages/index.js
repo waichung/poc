@@ -5,6 +5,7 @@ const Home = () => {
   const [params, setParams] = React.useState({
     given_names: "", 
     surname: "", 
+    email: "", 
     password: "", 
     re_password: "", 
   });
