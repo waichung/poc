@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Sansation Bold";
+  src: url("/static/fonts/Sansation_Bold.ttf");
+}
+
+@font-face {
+  font-family: "Sansation Regular";
+  src: url("/static/fonts/Sansation_Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sansation Light";
+  src: url("/static/fonts/Sansation_Regular.ttf");
+}
+
+$color: #2ecc71;
+$font-family: 'Sansation Bold';
+.example {
+  background: url('/static/images/masky.png');
+  font-family: $font-family;
+}
