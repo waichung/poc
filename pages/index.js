@@ -17,7 +17,7 @@ const Home = () => {
     setParams(cloneParams);
   }
 
-  const onClick = e => {
+  const clickHandler = e => {
     e.preventDefault();
     axios.post('');
   }
@@ -30,7 +30,7 @@ const Home = () => {
         );
       })}
       {/* sends confirmation email to user  */}
-      <button>Submit</button>
+      <button onClick={clickHandler}>Submit</button>
     </div>
   );
 }
